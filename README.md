@@ -33,7 +33,7 @@ O objetivo é investigar se informações de contexto familiar e escolar — col
 
 ```
 📦 Trabalho-Final-IA
- ┣ 📓 v1.ipynb               # Notebook principal com todo o pipeline
+ ┣ 📓 Trabalhofinal_IASamara.ipynb               # Notebook principal com todo o pipeline
  ┣ 📄 README.md              # Este arquivo
  ┗ 📄 instrucoes_dataset.md  # Como obter os microdados do ENEM
 ```
@@ -90,19 +90,14 @@ pip install pandas numpy scikit-fuzzy scikit-learn scipy matplotlib openpyxl
 
 ### 3. Obtenha os microdados do ENEM
 
-Os microdados não estão incluídos neste repositório por serem arquivos grandes. Veja as instruções completas em [`instrucoes_dataset.md`](instrucoes_dataset.md).
-
-Em resumo:
-1. Acesse [https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/enem](https://www.gov.br/inep/pt-br/acesso-a-informacao/dados-abertos/microdados/enem)
-2. Baixe os microdados do ano desejado
-3. Extraia e organize as colunas necessárias nos arquivos `dados_1.xlsx` e `dados_2.xlsx` na raiz do projeto
+Os microdados não estão incluídos neste repositório por serem arquivos grandes se encontram no link abaixo do drive: https://drive.google.com/drive/folders/1g3Aqfj3uuLlyL4hebQji_ac3e1u8kjKn?usp=sharing
 
 ### 4. Execute o notebook
 
-Abra o arquivo `v1.ipynb` no Jupyter Notebook ou Google Colab e execute as células em ordem.
+Abra o arquivo `Trabalhofinal_IASamara.ipynb` no Jupyter Notebook ou Google Colab e execute as células em ordem.
 
 ```bash
-jupyter notebook v1.ipynb
+jupyter notebook Trabalhofinal_IASamara.ipynb
 ```
 
 ---
